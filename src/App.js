@@ -3,7 +3,7 @@ import ChatPage from './compenents/ChatPage';
 import socketIO from 'socket.io-client';
 import Home from './compenents/Home';
 
-const socket = socketIO.connect('http://localhost:4000');
+const socket = socketIO.connect('https://main.d1miu8n3aj8c0h.amplifyapp.com:4000');
 function App() {
   return (
     <BrowserRouter>
